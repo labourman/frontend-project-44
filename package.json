@@ -9,15 +9,15 @@
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
     "brain-progression": "./bin/brain-progression.js",
-    "brain-prime": "./bin/brain-progression.js"
+    "brain-prime": "./bin/brain-prime.js"
   },
-  "description": "[![Actions Status](https://github.com/labourman/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/labourman/frontend-project-44/actions)",
+  "description": "Набор консольных игр для тренировки умственных способностей. Включает игры: 'Прогрессия', 'Простое ли число?' и другие.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
   },
-  "author": "",
+  "author": "Kolesov Daniil",
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"

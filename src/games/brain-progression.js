@@ -1,6 +1,4 @@
-#!/usr/bin/env node
-
-import { runGame } from '../src/gamesEngine.js';
+import { runGame } from '../gamesEngine.js';
 
 // Функция для генерации случайного числа в заданном диапазоне
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;

@@ -1,6 +1,4 @@
-#!/usr/bin/env node
-
-import { runGame } from '../src/gamesEngine.js';
+import { runGame } from '../gamesEngine.js';
 
 // Функция для определения, является ли число простым
 const isPrime = (num) => {
