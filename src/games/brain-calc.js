@@ -1,6 +1,4 @@
-import { runGame } from '../gamesEngine.js';
-
-const generateQuestion = () => {
+export const generateQuestion = () => {
   const number1 = Math.floor(Math.random() * 20) + 1;
   const number2 = Math.floor(Math.random() * 20) + 1;
   const operators = ['+', '-', '*'];
@@ -8,7 +6,7 @@ const generateQuestion = () => {
   return `${number1} ${operator} ${number2}`;
 };
 
-const getCorrectAnswer = (question) => {
+export const getCorrectAnswer = (question) => {
   const [num1, operator, num2] = question.split(' ');
   switch (operator) {
     case '+':
@@ -21,7 +19,3 @@ const getCorrectAnswer = (question) => {
       return null;
   }
 };
-
-const gameDescription = 'What is the result of the expression?';
-
-runGame(gameDescription, generateQuestion, getCorrectAnswer);

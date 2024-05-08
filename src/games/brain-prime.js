@@ -1,5 +1,3 @@
-import { runGame } from '../gamesEngine.js';
-
 // Функция для определения, является ли число простым
 const isPrime = (num) => {
   if (num <= 1) {
@@ -13,21 +11,13 @@ const isPrime = (num) => {
   return true;
 };
 
-// Функция для генерации вопроса
-const generateQuestion = () => {
-  const number = Math.floor(Math.random() * 100) + 1; // Генерация случайного числа от 1 до 100
+export const generateQuestion = () => {
+  const number = Math.floor(Math.random() * 100) + 1;
   const question = number.toString();
   return question;
 };
 
-// Получение правильного ответа
-const getCorrectAnswer = (question) => {
+export const getCorrectAnswer = (question) => {
   const number = parseInt(question, 10);
   return isPrime(number) ? 'yes' : 'no';
 };
-
-// Описание игры
-const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no"';
-
-// Запуск игры
-runGame(gameDescription, generateQuestion, getCorrectAnswer);

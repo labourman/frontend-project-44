@@ -1,12 +1,7 @@
 #!/usr/bin/env node
 
 import { runGame } from '../src/gamesEngine.js';
-
-const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
-
-const generateQuestion = () => Math.floor(Math.random() * 100) + 1;
-
-const getCorrectAnswer = (num) => isEven(num);
+import { generateQuestion, getCorrectAnswer } from '../src/games/brain-even.js';
 
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
