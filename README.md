@@ -64,8 +64,8 @@
 ## Демонстрация игры
 Пример запуска и прохождения игры можно посмотреть в следующих записях Asciinema:
 
-1я игра : [Brain-even](https://asciinema.org/a/n9SB4KyAg9EpVOCMAEiZwJQwS)
-2я игра : [Brain-calc](https://asciinema.org/a/jhZtITnPeT291rnyBzHQ65r3x)
-3я игра : [Brain-gcd](https://asciinema.org/a/UOp27xj34nDy8wCajwwY8yZBq)
-4я игра : [Brain-prime](https://asciinema.org/a/E4vlBst002gq9hPG6MVbEq4cB)
-5я игра : [Brain-progression](https://asciinema.org/a/i5YD4UbVw4f9fkozn8Q1gjIdo)
+* 1я игра : [Brain-even](https://asciinema.org/a/n9SB4KyAg9EpVOCMAEiZwJQwS)
+* 2я игра : [Brain-calc](https://asciinema.org/a/jhZtITnPeT291rnyBzHQ65r3x)
+* 3я игра : [Brain-gcd](https://asciinema.org/a/UOp27xj34nDy8wCajwwY8yZBq)
+* 4я игра : [Brain-prime](https://asciinema.org/a/E4vlBst002gq9hPG6MVbEq4cB)
+* 5я игра : [Brain-progression](https://asciinema.org/a/i5YD4UbVw4f9fkozn8Q1gjIdo)
