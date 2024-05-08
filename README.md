@@ -12,15 +12,21 @@
 Для установки проекта выполните следующие шаги:
 
 1. Склонируйте репозиторий на свой компьютер:
-```git clone https://github.com/labourman/frontend-project-44.git```
+```javascript
+git clone https://github.com/labourman/frontend-project-44.git
+```
 
 
 2. Перейдите в каталог с проектом:
-```cd frontend-project-44```
+```javascript
+cd frontend-project-44
+```
 
 
 3. Установите зависимости:
-```npm install```
+```javascript
+npm install
+```
 
 
 ## Запуск игр
@@ -30,21 +36,27 @@
 Описание: В этой игре вычисляется результат арифметического выражения.
 
 Как запустить:
-```npm run brain-calc```
+```javascript
+npm run brain-calc
+```
 
 
 2. Игра "Проверка на четность"
 Описание: В этой игре необходимо определить, является ли число четным.
 
 Как запустить:
-```npm run brain-even```
+```javascript
+npm run brain-even
+```
 
 
 3. Игра "Наибольший общий делитель (НОД)"
 Описание: В этой игре необходимо найти наибольший общий делитель двух чисел.
 
 Как запустить:
-```npm run brain-gcd```
+```javascript
+npm run brain-gcd
+```
 
 
 4. Игра "Простое ли число?"
